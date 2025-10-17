@@ -1,8 +1,8 @@
 try:
   age=int(input("Enter your age: "))
-if age >= 18:
+  if age >= 18:
     print("you are eligible to vote")
-else:
-  print("you are not eligible to vote")
+  else:
+    print("you are not eligible to vote")
 except ValueError:
   print("please enter a valid integer") 
